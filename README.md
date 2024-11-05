@@ -1,1 +1,2 @@
-# DZ_44
+# Для запуска:
+python manage.py runserver
