@@ -30,19 +30,6 @@ def history(request):
     return HttpResponse(f'<h2>Факты о городе</h2>')
 
 
-# def history(request, inf):
-#     if inf == 'people':
-#         res = '<h3>Информация об известных жителях города</h3>'
-#     elif inf == 'photos':
-#         res = '<h3>Исторические фотографии города</h3>'
-#     elif inf == '':
-#         res = '''<h2>Факты о городе</h2><br>
-#         <a href=/people>Информация об известных жителях города</a><br>
-#         <a href=/photos>Исторические фотографии города</a><br>
-#         '''
-#     return HttpResponse(res)
-
-
 def people(request):
     return HttpResponse(f'<h3>Информация об известных жителях города</h3>')
 
